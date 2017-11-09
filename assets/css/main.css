@@ -1060,19 +1060,19 @@
 		background-size: cover; 
 	}
 
-	/* #bg { */
-		/* -moz-transform: scale(1.0); */
-		/* -webkit-transform: scale(1.0); */
-		/* -ms-transform: scale(1.0); */
-		/* transform: scale(1.0); */
-		/* -webkit-backface-visibility: hidden; */
-		/* position: fixed; */
-		/* top: 0; */
-		/* left: 0; */
-		/* width: 100%; */
-		/* height: 100vh; */
-		/* z-index: 1; */
-	/* } */
+	#bg {
+		-moz-transform: scale(1.0);
+		-webkit-transform: scale(1.0);
+		-ms-transform: scale(1.0);
+		transform: scale(1.0);
+		-webkit-backface-visibility: hidden;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100vh;
+		z-index: 1;
+	}
 
 		#bg:before, #bg:after {
 			content: '';
@@ -1109,10 +1109,10 @@
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg.png");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
+			background-color:rgba(0, 0, 0, 0.3);
 			z-index: 1;
 		}
 
